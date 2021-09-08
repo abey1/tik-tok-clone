@@ -3,26 +3,26 @@ import './Video.css'
 
 function Video() {
 
-    const [play, setPlay] = useState("false")
+    // const [play, setPlay] = useState("false")
 
-    const videoRef = useRef(null)
+    // const videoRef = useRef(null)
 
-    const handleVideoPlay = () =>{
-        //if video is playing
-        //stop it...
-        if(play){
-            videoRef.current.pause();
-            setPlay("false")
-        }
+    // const handleVideoPlay = () =>{
+    //     //if video is playing
+    //     //stop it...
+    //     if(play){
+    //         videoRef.current.pause();
+    //         setPlay("false")
+    //     }
             
-        //if video is not playing
-        //play it...
-        else{
-            videoRef.current.play();
-            setPlay("true")
-        }
+    //     //if video is not playing
+    //     //play it...
+    //     else{
+    //         videoRef.current.play();
+    //         setPlay("true")
+    //     }
             
-    }
+    // }
 
     return (
         <div className="video">
